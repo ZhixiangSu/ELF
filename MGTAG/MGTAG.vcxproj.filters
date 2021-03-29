@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="data">
+      <UniqueIdentifier>{c8e45980-5cfc-42d3-a453-b38e77a8fbd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="query">
+      <UniqueIdentifier>{56d6efab-5728-4fa8-be83-b9da96b6d62c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\agrocyc_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\amaze_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\anthra_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\citeseer_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\citeseerx_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\cit-Patents_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\ecoo_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\human_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\kegg_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\mtbrv_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\nasa_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\vchocyc_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\xmark_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\uniprotenc_22m_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\uniprotenc_100m_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\go_uniprot_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\Email-EuAll_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\soc-LiveJournal1_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\web-Google_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\wikiTalk_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="query\agrocyc\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\amaze\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\anthra\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\citeseer\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\citeseerx\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\cit-Patents\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\ecoo\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\human\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\kegg\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\mtbrv\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\nasa\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\vchocyc\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\xmark\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\uniprotenc_22m\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\uniprotenc_100m\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\go_uniprot\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\Email-EuAll\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\web-Google\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\wikiTalk\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\soc-LiveJournal1\query.txt">
+      <Filter>query</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+</Project>

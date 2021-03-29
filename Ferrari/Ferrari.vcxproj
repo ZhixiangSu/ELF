@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM64">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM64">
+      <Configuration>Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8db1ccef-c51b-42ba-befa-47f9684075d9}</ProjectGuid>
+    <Keyword>Linux</Keyword>
+    <RootNamespace>Ferrari</RootNamespace>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <ApplicationType>Linux</ApplicationType>
+    <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
+    <TargetLinuxPlatform>Generic</TargetLinuxPlatform>
+    <LinuxProjectType>{2238F9CD-F817-4ECC-BD14-2524D2669B35}</LinuxProjectType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>/home/szx/boost_1_74_0;$(IncludePath)</IncludePath>
+    <LibraryPath>/home/szx/boost_1_74_0/stage/lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <IncludePath>/home/szx/boost_1_75_0;$(IncludePath)</IncludePath>
+    <LibraryPath>/home/szx/boost_1_75_0/stage/lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+    <None Include="data\agrocyc_dag_uniq.gra" />
+    <None Include="data\amaze_dag_uniq.gra" />
+    <None Include="data\anthra_dag_uniq.gra" />
+    <None Include="data\cit-Patents_dag_uniq.gra" />
+    <None Include="data\citeseerx_dag_uniq.gra" />
+    <None Include="data\citeseer_dag_uniq.gra" />
+    <None Include="data\ecoo_dag_uniq.gra" />
+    <None Include="data\Email-EuAll_dag_uniq.gra" />
+    <None Include="data\human_dag_uniq.gra" />
+    <None Include="data\kegg_dag_uniq.gra" />
+    <None Include="data\mtbrv_dag_uniq.gra" />
+    <None Include="data\nasa_dag_uniq.gra" />
+    <None Include="data\soc-LiveJournal1_dag_uniq.gra" />
+    <None Include="data\vchocyc_dag_uniq.gra" />
+    <None Include="data\web-Google_dag_uniq.gra" />
+    <None Include="data\wikiTalk_dag_uniq.gra" />
+    <None Include="data\xmark_dag_uniq.gra" />
+    <None Include="Makefile" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ferrari.cpp" />
+    <ClCompile Include="Graph.cpp" />
+    <ClCompile Include="Index.cpp" />
+    <ClCompile Include="IntervalList.cpp" />
+    <ClCompile Include="Timer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Graph.h" />
+    <ClInclude Include="Index.h" />
+    <ClInclude Include="IntervalList.h" />
+    <ClInclude Include="Timer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="query\agrocyc\query.txt" />
+    <Text Include="query\amaze\query.txt" />
+    <Text Include="query\anthra\query.txt" />
+    <Text Include="query\cit-Patents\query.txt" />
+    <Text Include="query\citeseerx\query.txt" />
+    <Text Include="query\citeseer\query.txt" />
+    <Text Include="query\ecoo\query.txt" />
+    <Text Include="query\Email-EuAll\query.txt" />
+    <Text Include="query\human\query.txt" />
+    <Text Include="query\kegg\query.txt" />
+    <Text Include="query\mtbrv\query.txt" />
+    <Text Include="query\nasa\query.txt" />
+    <Text Include="query\soc-LiveJournal1\query.txt" />
+    <Text Include="query\vchocyc\query.txt" />
+    <Text Include="query\web-Google\query.txt" />
+    <Text Include="query\wikiTalk\query.txt" />
+    <Text Include="query\xmark\query.txt" />
+  </ItemGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions>-lboost_thread %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>-lboost_thread %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>/home/szx/boost_1_75_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>/home/szx/boost_1_75_0/stage/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

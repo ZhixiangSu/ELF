@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="data">
+      <UniqueIdentifier>{0207fc53-7b5a-49c2-ba6b-eda8abe18539}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="query">
+      <UniqueIdentifier>{160112e6-f309-4673-9054-4bbcd5e11ddc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\agrocyc_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\amaze_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\anthra_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\citeseer_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\citeseerx_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\cit-Patents_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\ecoo_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\human_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\kegg_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\mtbrv_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\nasa_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\vchocyc_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\xmark_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\Email-EuAll_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\soc-LiveJournal1_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\web-Google_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\wikiTalk_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="query\agrocyc\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\amaze\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\anthra\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\citeseer\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\citeseerx\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\cit-Patents\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\ecoo\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\human\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\kegg\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\mtbrv\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\nasa\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\vchocyc\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\xmark\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\Email-EuAll\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\soc-LiveJournal1\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\web-Google\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\wikiTalk\query.txt">
+      <Filter>query</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+</Project>

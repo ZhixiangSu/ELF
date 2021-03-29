@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Grail.cpp" />
+    <ClCompile Include="Graph.cpp" />
+    <ClCompile Include="GraphUtil.cpp" />
+    <ClCompile Include="interval_tree.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="TCSEstimator.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="exception_list.h" />
+    <ClInclude Include="exception_list_incremental_base.h" />
+    <ClInclude Include="exception_list_incremental_plus.h" />
+    <ClInclude Include="Grail.h" />
+    <ClInclude Include="Graph.h" />
+    <ClInclude Include="GraphUtil.h" />
+    <ClInclude Include="interval_tree.h" />
+    <ClInclude Include="TCSEstimator.h" />
+    <ClInclude Include="templatestack.h" />
+    <ClInclude Include="time_tracker.h" />
+    <ClInclude Include="utils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="COPYRIGHT" />
+    <None Include="makefile" />
+    <None Include="README" />
+    <None Include="sample.gra" />
+    <None Include="sample.test" />
+    <None Include="sample2.gra" />
+    <None Include="sample2.test" />
+    <None Include="data\agrocyc_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\amaze_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\anthra_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\citeseer_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\citeseerx_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\cit-Patents_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\ecoo_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\human_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\kegg_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\mtbrv_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\nasa_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\vchocyc_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\xmark_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\Email-EuAll_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\soc-LiveJournal1_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\web-Google_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\wikiTalk_dag_uniq.gra">
+      <Filter>data</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="data">
+      <UniqueIdentifier>{4da6f285-61b7-43bd-85d3-29c569a87ca5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="query">
+      <UniqueIdentifier>{745e4e17-4f3a-4c93-a15d-7c32e695370d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="query\agrocyc\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\amaze\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\anthra\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\citeseer\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\citeseerx\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\cit-Patents\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\ecoo\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\human\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\kegg\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\mtbrv\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\nasa\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\vchocyc\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\xmark\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\Email-EuAll\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\soc-LiveJournal1\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\web-Google\query.txt">
+      <Filter>query</Filter>
+    </Text>
+    <Text Include="query\wikiTalk\query.txt">
+      <Filter>query</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
