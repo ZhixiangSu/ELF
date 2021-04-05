@@ -38,7 +38,7 @@ For dataset and query, you need to change their format and put them into /data/{
 
   - https://github.com/ecml-pkdd-paper-596/ELF-datasets
   
-*Graph format:*
+**Graph format:**
 
 *_dag_uniq.gra
 
@@ -46,7 +46,7 @@ The first line must be "graph_for_greach".
 
 For u and all u's successors v, it should be described as:    u: v_1 v_2 ... v_deg+(u)#
 
-*Query format:*
+**Query format:**
 
 query.txt
 
