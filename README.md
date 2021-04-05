@@ -34,7 +34,7 @@ Modifications have been done on these four methods for applying ELF.
 
 ----------------------------
 
-For dataset and query, you need to change their format and put them into \data\{DATASET}_dag_uniq.gra and \{DATASET}\query.txt, respectively. You can also download datasets in our experiments from:
+For dataset and query, you need to change their format and put them into /data/{DATASET}_dag_uniq.gra and /{DATASET}/query.txt, respectively. You can also download datasets in our experiments from:
 
   -https://github.com/ecml-pkdd-paper-596/ELF-datasets
   
