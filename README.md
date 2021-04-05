@@ -19,13 +19,13 @@ For the usage of visual studio cross-platform, please refer to:
     
 This repository is consisted of four projects which are from:
     
-    -https://github.com/BoleynSu/bfl
+    - https://github.com/BoleynSu/bfl
     
-    -https://github.com/steps/Ferrari
+    - https://github.com/steps/Ferrari
     
-    -https://github.com/zakimjz/grail
+    - https://github.com/zakimjz/grail
     
-    -https://github.com/oeljeklaus-you/MGTag
+    - https://github.com/oeljeklaus-you/MGTag
     
     
 They are transformed into visual studio projects and should be loaded and excuted by *.sln (in the root directory).
@@ -36,7 +36,7 @@ Modifications have been done on these four methods for applying ELF.
 
 For dataset and query, you need to change their format and put them into /data/{DATASET}_dag_uniq.gra and /{DATASET}/query.txt, respectively. You can also download datasets in our experiments from:
 
-  -https://github.com/ecml-pkdd-paper-596/ELF-datasets
+  - https://github.com/ecml-pkdd-paper-596/ELF-datasets
   
 Graph format:
 
