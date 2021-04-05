@@ -54,4 +54,4 @@ For query Reach(u,v), it should be described as:
 
 u v -1
 
--1 can be changed into 1 and 0 for reachable and unreachable queries,respectively.
+-1 can be changed into 1 and 0 for reachable and unreachable queries, respectively.
